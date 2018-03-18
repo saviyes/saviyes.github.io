@@ -17,7 +17,7 @@ function onClick(e){
 function showSubMenu(el){
     el.classList.add('show-submenu');
     document.addEventListener('click', function onDocClick(e){
-        e.preventDefault();
+      //  e.preventDefault();
         if(el.contains(e.target)){
             return;
         }
